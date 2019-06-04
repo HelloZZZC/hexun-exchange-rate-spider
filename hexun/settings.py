@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'hexun.spiders'
 #USER_AGENT = 'hexun (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -109,7 +109,7 @@ USER_AGENT = [
 ]
 
 #mysql connection setting example
-MYSQL_HOST = 'localhost'
-MYSQL_DB = 'douban_dev'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = ''
+MYSQL_HOST = 'HOST'
+MYSQL_DB = 'DB'
+MYSQL_USER = 'USER'
+MYSQL_PASSWORD = 'PASSWORD'

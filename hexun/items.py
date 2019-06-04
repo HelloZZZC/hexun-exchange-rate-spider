@@ -10,7 +10,7 @@ import scrapy
 
 class HexunItem(scrapy.Item):
     # define the fields for your item here like:
-    from_country = scrapy.Field()
-    to_country = scrapy.Field()
+    from_currency = scrapy.Field()
+    to_currency = scrapy.Field()
     rate = scrapy.Field()
 

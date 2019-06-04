@@ -20,8 +20,8 @@ class HexunSpider(CrawlSpider):
             print(td.div.string.strip())
             print(td.find(class_='pere').em.string.strip())
             result = td.div.string.strip().split('/')
-            item['from_country'] = result[0]
-            item['to_country'] = result[1]
+            item['from_currency'] = result[0]
+            item['to_currency'] = result[1]
             item['rate'] = td.find(class_='pere').em.string.strip()
             yield item
 
